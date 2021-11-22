@@ -8,11 +8,11 @@
 
 - 🌱 I’m currently learning **React JS & Next JS**
 
-- 👨‍💻 All of my projects are available at [My Web Site](https://selimyalinkilic.vercel.app)
+- 👨‍💻 All of my projects are available at [My Web Site](https://selimyalinkilic.com)
 
 - 📫 How to reach me **yalinkilicselim@gmail.com**
 
-- 📄 Know about my experiences at [My Web Site](https://selimyalinkilic.vercel.app)
+- 📄 Know about my experiences at [My Web Site](https://selimyalinkilic.com)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
