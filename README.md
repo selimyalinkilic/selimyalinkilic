@@ -12,7 +12,7 @@ A passionate frontend developer from **Turkey**
 
 🔎 Checkout my **[website](https://selimyalinkilic.com)**
 
-📬 How to reach me **yalinkilicselim@gmail.com**
+📬 Reach me on **[email](yalinkilicselim@gmail.com)**
 
 
 ### 🔗 Social
@@ -55,4 +55,10 @@ A passionate frontend developer from **Turkey**
   <img src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6" alt="AdobeXD" />
   <img src="https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black" alt="Sketch" />
   <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" alt="Photoshop" />  
+</p>
+
+##
+
+<p>  
+  <a href="https://buymeacoffee.com/selimyalinkilic" target="_blank"><img src="https://res.cloudinary.com/selimyal/image/upload/v1641238333/bmc-button_ast3kz.png" width="200" /></a>
 </p>
