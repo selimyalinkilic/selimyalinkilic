@@ -61,9 +61,15 @@ A passionate frontend developer from **Turkey**
 
 ### 🚀 Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&theme=radical)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&theme=radical)](https://github.com/selimyalinkilic/github-readme-stats)
+<p>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&theme=radical" height="205" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/anuraghazra/convoychat">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&hide=html,shell&theme=radical" />
+  </a>
+</p>
 
 ##
 
