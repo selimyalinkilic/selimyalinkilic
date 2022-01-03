@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img src="https://res.cloudinary.com/selimyal/image/upload/v1641242595/0_JKyzq_e9TUlb84wX_mnmawr.png" />
 
 ## Hi 👋, I'm Selim
 
