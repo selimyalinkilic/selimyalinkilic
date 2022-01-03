@@ -63,11 +63,11 @@ A passionate frontend developer from **Turkey**
 
 <p>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&theme=radical" height="205" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&theme=radical" />
   </a>
   &nbsp;
   <a href="https://github.com/anuraghazra/convoychat">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&hide=html,shell&theme=radical" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&theme=radical&layout=compact" height="195" />
   </a>
 </p>
 
