@@ -4,7 +4,7 @@
 
 A passionate frontend developer from **Turkey**
 
-![](https://komarev.com/ghpvc/?username=selimyalinkilic&color=brightgreen)
+![](https://komarev.com/ghpvc/?username=selimyalinkilic&color=blueviolet)
 
 👨‍💻 Currently working at **[Shopier](https://www.shopier.com)**
 
