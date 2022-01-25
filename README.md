@@ -12,7 +12,7 @@ A passionate frontend developer from **Turkey**
 
 🔎 Checkout my **[website](https://selimyalinkilic.com)**
 
-📬 Reach me on **[email](yalinkilicselim@gmail.com)**
+📬 Reach me on **yalinkilicselim@gmail.com**
 
 
 ### 🔗 Social
