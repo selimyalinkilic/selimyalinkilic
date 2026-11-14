@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="176" viewBox="0 0 1280 176" role="img" aria-label="Senior frontend developer at Shopier. I turn designs into fast, accessible, slightly-too-polished interfaces — since 2017, from Istanbul. On the side, I keep making small things.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="138" viewBox="0 0 1280 138" role="img" aria-label="Senior frontend developer at Shopier. I turn designs into fast, accessible, slightly-too-polished interfaces — since 2017, from Istanbul. On the side, I keep making small things.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0F24"/>
@@ -6,14 +6,12 @@
     </linearGradient>
   </defs>
 
-  <rect width="1280" height="176" rx="20" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="1279" height="175" rx="19.5" fill="none" stroke="#2A3560"/>
-  <rect x="11" y="18" width="4" height="140" rx="2" fill="#FF6B9A" opacity="0.9"/>
-  <text x="34" y="46" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2.6" fill="#FF6B9A" opacity="0.8">HELLO</text>
+  <rect width="1280" height="138" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="137" rx="19.5" fill="none" stroke="#2A3560"/>
+  <rect x="11" y="18" width="4" height="102" rx="2" fill="#FF6B9A" opacity="0.9"/>
+  <text x="34" y="44" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2.6" fill="#FF6B9A" opacity="0.8">HELLO</text>
 
-  <text x="34" y="90" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="21" font-weight="500" fill="#FFFFFF">Senior frontend developer at <tspan fill="#5B8CFF">Shopier</tspan>. I turn designs into fast, accessible,</text>
-  <text x="34" y="120" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="21" font-weight="500" fill="#FFFFFF">slightly-too-polished interfaces — <tspan fill="#FFB547">since 2017</tspan>, from <tspan fill="#FF6B9A">Istanbul</tspan>.</text>
+  <text x="34" y="82" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="18.5" font-weight="500" fill="#FFFFFF">Senior frontend developer at <tspan fill="#5B8CFF">Shopier</tspan>. I turn designs into fast, accessible, slightly-too-polished interfaces — <tspan fill="#FFB547">since 2017</tspan>, from <tspan fill="#FF6B9A">Istanbul</tspan>.</text>
 
-  <line x1="34" y1="140" x2="1246" y2="140" stroke="#1E2749"/>
-  <text x="34" y="160" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12" fill="#A9B2D6">On the side, I keep making small things.</text>
+  <text x="34" y="114" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12" fill="#A9B2D6">On the side, I keep making small things.</text>
 </svg>

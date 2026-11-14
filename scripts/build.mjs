@@ -139,17 +139,15 @@ function renderIntro(variant) {
 
   return shell({
     w: 1280,
-    h: 176,
+    h: 138,
     label:
       "Senior frontend developer at Shopier. I turn designs into fast, accessible, slightly-too-polished interfaces — since 2017, from Istanbul. On the side, I keep making small things.",
-    body: `  <rect x="11" y="18" width="4" height="140" rx="2" fill="${C.pink}" opacity="0.9"/>
-  <text x="34" y="46" font-family='${mono}' font-size="10.5" letter-spacing="2.6" fill="${C.pink}" opacity="0.8">HELLO</text>
+    body: `  <rect x="11" y="18" width="4" height="102" rx="2" fill="${C.pink}" opacity="0.9"/>
+  <text x="34" y="44" font-family='${mono}' font-size="10.5" letter-spacing="2.6" fill="${C.pink}" opacity="0.8">HELLO</text>
 
-  <text x="34" y="90" font-family='${sans}' font-size="21" font-weight="500" fill="${C.white}">Senior frontend developer at <tspan fill="${C.blue}">Shopier</tspan>. I turn designs into fast, accessible,</text>
-  <text x="34" y="120" font-family='${sans}' font-size="21" font-weight="500" fill="${C.white}">slightly-too-polished interfaces — <tspan fill="${C.amber}">since 2017</tspan>, from <tspan fill="${C.pink}">Istanbul</tspan>.</text>
+  <text x="34" y="82" font-family='${sans}' font-size="18.5" font-weight="500" fill="${C.white}">Senior frontend developer at <tspan fill="${C.blue}">Shopier</tspan>. I turn designs into fast, accessible, slightly-too-polished interfaces — <tspan fill="${C.amber}">since 2017</tspan>, from <tspan fill="${C.pink}">Istanbul</tspan>.</text>
 
-  <line x1="34" y1="140" x2="1246" y2="140" stroke="${C.hair}"/>
-  <text x="34" y="160" font-family='${mono}' font-size="12" fill="${C.text}">On the side, I keep making small things.</text>`,
+  <text x="34" y="114" font-family='${mono}' font-size="12" fill="${C.text}">On the side, I keep making small things.</text>`,
   });
 }
 
@@ -344,37 +342,23 @@ const PROJECTS = [
   },
 ];
 
-function renderCard(p, variant) {
-  if (variant === "mobil") {
-    return shell({
-      w: 640,
-      h: 222,
-      radius: 16,
-      label: `${p.title} — ${p.desc.join(" ")}`,
-      body: `  <rect x="14" y="20" width="5" height="182" rx="2.5" fill="${p.accent}" opacity="0.9"/>
-  <text x="40" y="56" font-family='${mono}' font-size="16" letter-spacing="2.2" fill="${C.faint}">PROJECT ${p.index}</text>
-  <text x="40" y="104" font-family='${sans}' font-size="31" font-weight="700" letter-spacing="-0.6" fill="${C.white}">${esc(p.title)}</text>
-  <text x="40" y="140" font-family='${mono}' font-size="17" fill="${C.text}">${esc(p.desc[0])}</text>
-  <text x="40" y="166" font-family='${mono}' font-size="17" fill="${C.text}">${esc(p.desc[1])}</text>
-  <text x="40" y="198" font-family='${mono}' font-size="15" letter-spacing="2" fill="${p.accent}" opacity="0.85">${p.tag}</text>`,
-    });
-  }
-
+function renderCard(p) {
   return shell({
-    w: 1280,
-    h: 118,
+    w: 620,
+    h: 186,
     radius: 16,
     label: `${p.title} — ${p.desc.join(" ")}`,
-    body: `  <rect x="11" y="18" width="4" height="82" rx="2" fill="${p.accent}" opacity="0.9"/>
+    body: `  <rect x="11" y="18" width="4" height="150" rx="2" fill="${p.accent}" opacity="0.9"/>
+  <text x="34" y="42" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${C.faint}">PROJECT ${p.index}</text>
+  <circle cx="586" cy="38" r="3" fill="${p.accent}" opacity="0.75"/>
 
-  <text x="34" y="40" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${C.faint}">PROJECT ${p.index}</text>
-  <text x="34" y="82" font-family='${sans}' font-size="26" font-weight="700" letter-spacing="-0.5" fill="${C.white}">${esc(p.title)}</text>
+  <text x="33" y="86" font-family='${sans}' font-size="25" font-weight="700" letter-spacing="-0.5" fill="${C.white}">${esc(p.title)}</text>
 
-  <text x="452" y="62" font-family='${mono}' font-size="13.5" fill="${C.text}">${esc(p.desc[0])}</text>
-  <text x="452" y="86" font-family='${mono}' font-size="13.5" fill="${C.text}">${esc(p.desc[1])}</text>
+  <text x="34" y="118" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[0])}</text>
+  <text x="34" y="140" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[1])}</text>
 
-  <text x="1246" y="76" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${p.accent}" opacity="0.85" text-anchor="end">${p.tag}</text>
-  <circle cx="1246" cy="40" r="3" fill="${p.accent}" opacity="0.75"/>`,
+  <line x1="34" y1="156" x2="589" y2="156" stroke="${C.hair}"/>
+  <text x="34" y="176" font-family='${mono}' font-size="10.5" letter-spacing="1.8" fill="${p.accent}" opacity="0.85">${p.tag}</text>`,
   });
 }
 
@@ -454,8 +438,7 @@ async function main() {
 
   for (const project of PROJECTS) {
     const name = project.repo || "more";
-    await write(`cards/${name}.svg`, renderCard(project, "genis"));
-    await write(`cards/${name}.mobil.svg`, renderCard(project, "mobil"));
+    await write(`cards/${name}.svg`, renderCard(project));
   }
 
   for (const item of SOCIAL) {
