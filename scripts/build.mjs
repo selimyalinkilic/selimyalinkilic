@@ -216,17 +216,17 @@ function renderCard(p) {
   const w = 620;
   const h = 186;
 
-  const body = `  <rect x="0" y="0" width="5" height="${h}" rx="2.5" fill="${p.accent}" opacity="0.9"/>
-  <text x="31" y="42" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${C.faint}">PROJECT ${p.index}</text>
+  const body = `  <rect x="11" y="18" width="4" height="${h - 36}" rx="2" fill="${p.accent}" opacity="0.9"/>
+  <text x="34" y="42" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${C.faint}">PROJECT ${p.index}</text>
   <circle cx="${w - 34}" cy="38" r="3" fill="${p.accent}" opacity="0.75"/>
 
-  <text x="30" y="84" font-family='${sans}' font-size="25" font-weight="700" letter-spacing="-0.5" fill="${C.white}">${esc(p.title)}</text>
+  <text x="33" y="84" font-family='${sans}' font-size="25" font-weight="700" letter-spacing="-0.5" fill="${C.white}">${esc(p.title)}</text>
 
-  <text x="31" y="116" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[0])}</text>
-  <text x="31" y="138" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[1])}</text>
+  <text x="34" y="116" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[0])}</text>
+  <text x="34" y="138" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[1])}</text>
 
-  <line x1="31" y1="155" x2="${w - 31}" y2="155" stroke="${C.hair}"/>
-  <text x="31" y="175" font-family='${mono}' font-size="10.5" letter-spacing="1.8" fill="${p.accent}" opacity="0.85">${p.tag}</text>`;
+  <line x1="34" y1="155" x2="${w - 31}" y2="155" stroke="${C.hair}"/>
+  <text x="34" y="175" font-family='${mono}' font-size="10.5" letter-spacing="1.8" fill="${p.accent}" opacity="0.85">${p.tag}</text>`;
 
   return shell({
     w,
@@ -237,11 +237,129 @@ function renderCard(p) {
   });
 }
 
+/* --------------------------------------------------------- değerler paneli */
+
+const CARE = [
+  {
+    n: "01",
+    title: "Simple over clever",
+    desc: ["If it needs explaining,", "it can be simpler."],
+    accent: C.pink,
+  },
+  {
+    n: "02",
+    title: "Fast by default",
+    desc: ["Speed is part of", "the design."],
+    accent: C.amber,
+  },
+  {
+    n: "03",
+    title: "Details matter",
+    desc: ["The small things", "are the product."],
+    accent: C.blue,
+  },
+];
+
+function renderCare() {
+  const w = 1280;
+  const h = 158;
+  const pad = 44;
+  const step = (w - pad * 2) / CARE.length;
+
+  const body = CARE.map((item, i) => {
+    const x = pad + i * step;
+    const divider =
+      i === 0
+        ? ""
+        : `  <line x1="${(x - 30).toFixed(1)}" y1="34" x2="${(x - 30).toFixed(1)}" y2="${h - 34}" stroke="${C.hair}"/>\n`;
+    return `${divider}  <g transform="translate(${x.toFixed(1)} 0)">
+    <text y="44" font-family='${mono}' font-size="10.5" letter-spacing="2.2" fill="${item.accent}" opacity="0.9">${item.n}</text>
+    <text y="80" font-family='${sans}' font-size="20" font-weight="700" letter-spacing="-0.3" fill="${C.white}">${esc(item.title)}</text>
+    <text y="108" font-family='${mono}' font-size="12.5" fill="${C.text}">${esc(item.desc[0])}</text>
+    <text y="128" font-family='${mono}' font-size="12.5" fill="${C.text}">${esc(item.desc[1])}</text>
+  </g>`;
+  }).join("\n");
+
+  return shell({
+    w,
+    h,
+    label: CARE.map((c) => `${c.title}: ${c.desc.join(" ")}`).join(" · "),
+    body,
+  });
+}
+
+/* ---------------------------------------------------------- sosyal çipler */
+
+const SOCIAL = [
+  { key: "site", label: "selimyalinkilic.me", icon: "globe", accent: C.blue },
+  { key: "linkedin", label: "in/selimyalinkilic", icon: "in", accent: C.pink },
+  { key: "mail", label: "e-mail", icon: "mail", accent: C.amber },
+];
+
+function icon(name, color) {
+  const box = `x="16" y="19" width="26" height="26" rx="9" fill="${color}" opacity="0.12"`;
+  if (name === "globe") {
+    return `<rect ${box}/>
+    <circle cx="29" cy="32" r="7.4" fill="none" stroke="${color}" stroke-width="1.4"/>
+    <ellipse cx="29" cy="32" rx="3.2" ry="7.4" fill="none" stroke="${color}" stroke-width="1.2" opacity="0.85"/>
+    <line x1="21.6" y1="32" x2="36.4" y2="32" stroke="${color}" stroke-width="1.2" opacity="0.85"/>`;
+  }
+  if (name === "in") {
+    return `<rect ${box}/>
+    <text x="29" y="36" font-family='${mono}' font-size="10.5" font-weight="700" fill="${color}" text-anchor="middle">in</text>`;
+  }
+  return `<rect ${box}/>
+    <rect x="19.5" y="24.5" width="19" height="15" rx="3" fill="none" stroke="${color}" stroke-width="1.4"/>
+    <path d="M20.5 26.5 L29 32.5 L37.5 26.5" fill="none" stroke="${color}" stroke-width="1.3"/>`;
+}
+
+function renderSocial(item) {
+  const w = 260;
+  const h = 66;
+
+  const body = `  ${icon(item.icon, item.accent)}
+  <text x="54" y="39" font-family='${mono}' font-size="12.5" fill="${C.white}">${esc(item.label)}</text>
+  <text x="${w - 18}" y="38" font-family='${mono}' font-size="13" fill="${item.accent}" text-anchor="end" opacity="0.75">↗</text>`;
+
+  return shell({
+    w,
+    h,
+    radius: 14,
+    label: item.label,
+    body,
+  });
+}
+
+/* --------------------------------------------------------- bölüm başlığı */
+
+const SECTIONS = [
+  { key: "work", index: "01", title: "SELECTED WORK", accent: C.pink },
+  { key: "care", index: "02", title: "WHAT I CARE ABOUT", accent: C.amber },
+  { key: "github", index: "03", title: "ON GITHUB", accent: C.green },
+  { key: "social", index: "04", title: "SOCIAL", accent: C.blue },
+];
+
+function renderSection(section) {
+  const w = 1280;
+  const h = 38;
+  const pad = 12;
+
+  const body = `  <text x="${pad}" y="26" font-family='${mono}' font-size="10.5" letter-spacing="3" fill="${section.accent}" opacity="0.85">${section.index}</text>
+  <text x="${pad + 30}" y="26" font-family='${mono}' font-size="10.5" letter-spacing="3" fill="${C.muted}">${section.title}</text>
+  <line x1="${pad + 30 + section.title.length * 9.6 + 18}" y1="22" x2="${w - pad}" y2="22" stroke="${C.hair}"/>`;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(section.title.toLowerCase())}">
+${body}
+</svg>
+`;
+}
+
 /* -------------------------------------------------------------- çalıştır */
 
 async function main() {
   const stats = await collect();
   await writeFile(join(ROOT, "stats.svg"), renderStats(stats, new Date()), "utf8");
+  await writeFile(join(ROOT, "care.svg"), renderCare(), "utf8");
 
   await mkdir(join(ROOT, "cards"), { recursive: true });
   for (const project of PROJECTS) {
@@ -249,8 +367,18 @@ async function main() {
     await writeFile(join(ROOT, "cards", `${name}.svg`), renderCard(project), "utf8");
   }
 
+  await mkdir(join(ROOT, "social"), { recursive: true });
+  for (const item of SOCIAL) {
+    await writeFile(join(ROOT, "social", `${item.key}.svg`), renderSocial(item), "utf8");
+  }
+
+  await mkdir(join(ROOT, "sections"), { recursive: true });
+  for (const section of SECTIONS) {
+    await writeFile(join(ROOT, "sections", `${section.key}.svg`), renderSection(section), "utf8");
+  }
+
   console.log(
-    `stats.svg + ${PROJECTS.length} kart yazıldı — ${stats.repositories} repo, ${stats.stars} yıldız, ${stats.followers} takipçi`,
+    `stats.svg, care.svg, ${PROJECTS.length} proje kartı, ${SOCIAL.length} sosyal çip yazıldı — ${stats.repositories} repo, ${stats.stars} yıldız, ${stats.followers} takipçi`,
   );
 }
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="66" viewBox="0 0 260 66" role="img" aria-label="e-mail">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+    <style>
+      .label { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 2.4px; fill: #7D8AAE; }
+      .value { font-family: "Rubik", Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -1.2px; fill: #FFFFFF; }
+      .hint  { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11.5px; fill: #5F6B90; }
+      .stamp { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 10.5px; letter-spacing: 1.1px; fill: #4C5679; }
+    </style>
+  </defs>
+
+  <rect width="260" height="66" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="259" height="65" rx="13.5" fill="none" stroke="#2A3560"/>
+  <rect x="16" y="19" width="26" height="26" rx="9" fill="#FFB547" opacity="0.12"/>
+    <rect x="19.5" y="24.5" width="19" height="15" rx="3" fill="none" stroke="#FFB547" stroke-width="1.4"/>
+    <path d="M20.5 26.5 L29 32.5 L37.5 26.5" fill="none" stroke="#FFB547" stroke-width="1.3"/>
+  <text x="54" y="39" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#FFFFFF">e-mail</text>
+  <text x="242" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="13" fill="#FFB547" text-anchor="end" opacity="0.75">↗</text>
+</svg>

@@ -14,15 +14,15 @@
 
   <rect width="620" height="186" rx="16" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="619" height="185" rx="15.5" fill="none" stroke="#2A3560"/>
-  <rect x="0" y="0" width="5" height="186" rx="2.5" fill="#2FBF7A" opacity="0.9"/>
-  <text x="31" y="42" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2" fill="#5F6B90">PROJECT 04</text>
+  <rect x="11" y="18" width="4" height="150" rx="2" fill="#2FBF7A" opacity="0.9"/>
+  <text x="34" y="42" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2" fill="#5F6B90">PROJECT 04</text>
   <circle cx="586" cy="38" r="3" fill="#2FBF7A" opacity="0.75"/>
 
-  <text x="30" y="84" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="25" font-weight="700" letter-spacing="-0.5" fill="#FFFFFF">more on GitHub →</text>
+  <text x="33" y="84" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="25" font-weight="700" letter-spacing="-0.5" fill="#FFFFFF">more on GitHub →</text>
 
-  <text x="31" y="116" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">Smaller experiments, older work</text>
-  <text x="31" y="138" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">and things I keep tinkering with.</text>
+  <text x="34" y="116" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">Smaller experiments, older work</text>
+  <text x="34" y="138" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">and things I keep tinkering with.</text>
 
-  <line x1="31" y1="155" x2="589" y2="155" stroke="#1E2749"/>
-  <text x="31" y="175" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="1.8" fill="#2FBF7A" opacity="0.85">ALWAYS TINKERING</text>
+  <line x1="34" y1="155" x2="589" y2="155" stroke="#1E2749"/>
+  <text x="34" y="175" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="1.8" fill="#2FBF7A" opacity="0.85">ALWAYS TINKERING</text>
 </svg>
