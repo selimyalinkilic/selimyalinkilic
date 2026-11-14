@@ -325,11 +325,11 @@ const PROJECTS = [
     accent: C.amber,
   },
   {
-    repo: "blog-frontend",
+    repo: "raf",
     index: "03",
-    title: "blog-frontend",
-    desc: ["The reader-facing side of a blog:", "posts, lists, reading."],
-    tag: "EARLY PROJECT",
+    title: "raf",
+    desc: ["A self-hosted read-later shelf: Chrome extension,", "video downloads and Playwright tools."],
+    tag: "BUILDING NOW",
     accent: C.blue,
   },
   {
