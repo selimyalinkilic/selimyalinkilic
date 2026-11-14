@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" role="img" aria-label="Senior frontend developer at Shopier. I turn designs into fast, accessible, slightly-too-polished interfaces — since 2017, from Istanbul.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="330" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="639" height="329" rx="19.5" fill="none" stroke="#2A3560"/>
+  <rect x="14" y="20" width="5" height="290" rx="2.5" fill="#FF6B9A" opacity="0.9"/>
+  <text x="40" y="56" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="17" letter-spacing="3" fill="#FF6B9A" opacity="0.8">HELLO</text>
+
+  <text x="40" y="116" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#FFFFFF">Senior frontend developer</text>
+  <text x="40" y="156" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#FFFFFF">at <tspan fill="#5B8CFF">Shopier</tspan>. I turn designs</text>
+  <text x="40" y="196" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#FFFFFF">into fast, accessible,</text>
+  <text x="40" y="236" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#FFFFFF">slightly-too-polished interfaces.</text>
+
+  <text x="40" y="282" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="19" fill="#FFB547">since 2017 · Istanbul</text>
+</svg>

@@ -4,12 +4,6 @@
       <stop offset="0" stop-color="#0A0F24"/>
       <stop offset="1" stop-color="#151D44"/>
     </linearGradient>
-    <style>
-      .label { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 2.4px; fill: #7D8AAE; }
-      .value { font-family: "Rubik", Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -1.2px; fill: #FFFFFF; }
-      .hint  { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11.5px; fill: #5F6B90; }
-      .stamp { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 10.5px; letter-spacing: 1.1px; fill: #4C5679; }
-    </style>
   </defs>
 
   <rect width="1280" height="158" rx="20" fill="url(#bg)"/>
@@ -17,21 +11,18 @@
   <g transform="translate(44.0 0)">
     <text y="44" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2.2" fill="#FF6B9A" opacity="0.9">01</text>
     <text y="80" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="20" font-weight="700" letter-spacing="-0.3" fill="#FFFFFF">Simple over clever</text>
-    <text y="108" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">If it needs explaining,</text>
-    <text y="128" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">it can be simpler.</text>
+    <text y="110" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">If it needs explaining, it can be simpler.</text>
   </g>
   <line x1="411.3" y1="34" x2="411.3" y2="124" stroke="#1E2749"/>
   <g transform="translate(441.3 0)">
     <text y="44" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2.2" fill="#FFB547" opacity="0.9">02</text>
     <text y="80" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="20" font-weight="700" letter-spacing="-0.3" fill="#FFFFFF">Fast by default</text>
-    <text y="108" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">Speed is part of</text>
-    <text y="128" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">the design.</text>
+    <text y="110" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">Speed is part of the design.</text>
   </g>
   <line x1="808.7" y1="34" x2="808.7" y2="124" stroke="#1E2749"/>
   <g transform="translate(838.7 0)">
     <text y="44" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2.2" fill="#5B8CFF" opacity="0.9">03</text>
     <text y="80" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="20" font-weight="700" letter-spacing="-0.3" fill="#FFFFFF">Details matter</text>
-    <text y="108" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">The small things</text>
-    <text y="128" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">are the product.</text>
+    <text y="110" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#A9B2D6">The small things are the product.</text>
   </g>
 </svg>

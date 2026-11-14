@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="GitHub: 20 public repositories, 38 stars, 57 followers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="300" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="639" height="299" rx="19.5" fill="none" stroke="#2A3560"/>
+  <g transform="translate(34 0)">
+    <text y="72" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#7D8AAE">SINCE</text>
+    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">2017</text>
+  </g>
+  <g transform="translate(334 0)">
+    <text y="72" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#7D8AAE">REPOS</text>
+    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">20</text>
+  </g>
+  <g transform="translate(34 130)">
+    <text y="72" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#7D8AAE">STARS</text>
+    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">38</text>
+  </g>
+  <g transform="translate(334 130)">
+    <text y="72" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#7D8AAE">FOLLOWERS</text>
+    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">57</text>
+  </g>
+  <line x1="34" y1="252" x2="606" y2="252" stroke="#1E2749"/>
+  <text x="34" y="278" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" letter-spacing="1.6" fill="#4C5679">SINCE 2017 · UPDATED 14 NOV 2026</text>
+</svg>

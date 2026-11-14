@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="46" viewBox="0 0 640 46" role="img" aria-label="selected work">
+  <text x="4" y="30" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.4" fill="#FF6B9A" opacity="0.85">01</text>
+  <text x="44" y="30" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.4" fill="#7D8AAE">SELECTED WORK</text>
+  <line x1="44" y1="40" x2="636" y2="40" stroke="#1E2749"/>
+</svg>
