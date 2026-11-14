@@ -1,76 +1,55 @@
-<img src="https://res.cloudinary.com/selimyal/image/upload/v1641242595/0_JKyzq_e9TUlb84wX_mnmawr.png" />
+<img src="banner.svg" width="100%" alt="Selim Yalınkılıç — Senior Frontend Developer at Shopier" />
 
-## Hi 👋, I'm Selim
+### Hey, I'm Selim
 
-A passionate frontend developer from **Turkey**
+Senior frontend developer at [Shopier](https://www.shopier.com). I turn designs into fast, accessible, slightly-too-polished interfaces — since 2017, from Istanbul.
 
-![](https://komarev.com/ghpvc/?username=selimyalinkilic&color=blueviolet)
+<table>
+  <tr>
+    <td valign="top">
+      <h4><a href="https://github.com/selimyalinkilic/ecommerce-rest-api">ecommerce-rest-api</a></h4>
+      The behind-the-scenes part of an online store: products, accounts, sign-in.<br />
+      <sub>Built end to end</sub>
+    </td>
+    <td valign="top">
+      <h4><a href="https://github.com/selimyalinkilic/next-countries">next-countries</a></h4>
+      A small app to browse countries and their details.<br />
+      <sub>Weekend project</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h4><a href="https://github.com/selimyalinkilic/blog-frontend">blog-frontend</a></h4>
+      The reader-facing side of a blog: posts, lists, reading.<br />
+      <sub>Early project</sub>
+    </td>
+    <td valign="top">
+      <h4><a href="https://github.com/selimyalinkilic?tab=repositories">more on GitHub →</a></h4>
+      Smaller experiments and older work.<br />
+      <sub>Always tinkering</sub>
+    </td>
+  </tr>
+</table>
 
-👨‍💻 Currently working at **[Shopier](https://www.shopier.com)**
+### What I care about
 
-📚 Currently learning **React JS & Next JS**
+- **Simple over clever** — if it needs explaining, it can be simpler
+- **Fast by default** — speed is part of the design
+- **Details matter** — the small things are the product
 
-🔎 Checkout my **[website](https://selimyalinkilic.com)**
+### Right now
 
-📬 Reach me on **yalinkilicselim@gmail.com**
-
-
-### 🔗 Social
-
-<p align="left">    
-  <a href="https://www.instagram.com/selimyalnklc/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="selimyalinkiliic" /></a>
-  <a href="https://www.linkedin.com/in/selimyalinkilic/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="selimyalinkilic" /></a>  
-</p>
-
-### 🛠 Languages and Tools
-
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Css3" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white" alt="ChakraUI" />    
-  <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material" />    
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=323330" alt="Javascript" />  
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="JQuery" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DBFB" alt="ReactJs" />
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />  
-  <img src="https://img.shields.io/badge/next.js-ffffff?style=for-the-badge&logo=nextdotjs&logoColor=black" alt="NextJs" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeJs" />
-  <img src="https://img.shields.io/badge/Express.js-ffffff?style=for-the-badge&logo=express&logoColor=black" alt="Express" />  
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />  
-  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=Airtable&logoColor=white" alt="Airtable" />
-  <img src="https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white" alt="GulpJS" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white" alt="Webpack" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />  
-  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
-  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github" />    
-  <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" alt="Gitlab" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6" alt="AdobeXD" />
-  <img src="https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black" alt="Sketch" />
-  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" alt="Photoshop" />  
-</p>
-
-### 🚀 Stats
+- Building at [Shopier](https://www.shopier.com)
+- Making small things on the side
+- Curious about what comes next
 
 <p>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&theme=radical" height="205" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/anuraghazra/convoychat">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&theme=radical&hide=html,shell" />
-  </a>
+  <a href="https://selimyalinkilic.me">selimyalinkilic.me</a> ·
+  <a href="https://www.linkedin.com/in/selimyalinkilic/">LinkedIn</a> ·
+  <a href="mailto:yalinkilicselim@gmail.com">e-mail</a>
 </p>
 
-##
-
-<p>  
-  <a href="https://buymeacoffee.com/selimyalinkilic" target="_blank"><img src="https://res.cloudinary.com/selimyal/image/upload/v1641238333/bmc-button_ast3kz.png" width="200" /></a>  
+<p>
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=selimyalinkilic&show_icons=true&hide_border=true&hide_title=true&bg_color=0B1026&title_color=FF6B9A&text_color=A9B2D6&icon_color=5B8CFF" alt="GitHub stats" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=selimyalinkilic&layout=compact&hide_border=true&langs_count=5&hide=html,css&bg_color=0B1026&title_color=FF6B9A&text_color=A9B2D6" alt="Top languages" />
 </p>

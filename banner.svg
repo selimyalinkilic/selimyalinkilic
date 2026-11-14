@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Selim Yalınkılıç — Senior Frontend Developer at Shopier">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0.7">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="0.55" stop-color="#0E1633"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+    <linearGradient id="planet" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#6F93E0"/>
+      <stop offset="0.55" stop-color="#4663AE"/>
+      <stop offset="1" stop-color="#2A3A72"/>
+    </linearGradient>
+    <linearGradient id="planeFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFDCA6"/>
+      <stop offset="1" stop-color="#FFB547"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5B8CFF" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#FF6B9A" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FF6B9A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="28" fill="url(#sky)"/>
+  <rect x="1" y="1" width="1278" height="318" rx="27" fill="none" stroke="#2A3560" stroke-width="1.5"/>
+  <circle cx="1060" cy="180" r="180" fill="url(#glow)"/>
+
+  <!-- yıldızlar -->
+  <g fill="#C9D3EA">
+    <circle cx="760" cy="62" r="1.7" opacity="0.8"/>
+    <circle cx="836" cy="118" r="1.2" opacity="0.55"/>
+    <circle cx="912" cy="46" r="1.5" opacity="0.7"/>
+    <circle cx="1002" cy="92" r="1.1" opacity="0.5"/>
+    <circle cx="1206" cy="132" r="1.6" opacity="0.7"/>
+    <circle cx="1238" cy="246" r="1.3" opacity="0.55"/>
+    <circle cx="806" cy="236" r="1.2" opacity="0.45"/>
+    <circle cx="1136" cy="60" r="1.1" opacity="0.5"/>
+    <path d="M962 74 C962 81 966 85 973 85 C966 85 962 89 962 96 C962 89 958 85 951 85 C958 85 962 81 962 74 Z" fill="#8FA6D8" opacity="0.85"/>
+    <path d="M1190 176 C1190 181 1193 184 1198 184 C1193 184 1190 187 1190 192 C1190 187 1187 184 1182 184 C1187 184 1190 181 1190 176 Z" fill="#FFB0C8" opacity="0.7"/>
+  </g>
+
+  <!-- kayan yıldız -->
+  <path d="M1146 34 L1198 54" stroke="url(#streak)" stroke-width="1.4" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- ay -->
+  <circle cx="1224" cy="74" r="8" fill="#FFCF97" opacity="0.9"/>
+
+  <!-- gezegen ve halkası -->
+  <g transform="rotate(-16 1068 188)">
+    <ellipse cx="1068" cy="188" rx="126" ry="44" fill="none" stroke="#FF6B9A" stroke-width="1.2" opacity="0.35"/>
+    <ellipse cx="1068" cy="188" rx="96" ry="25" fill="none" stroke="#FF8FB2" stroke-width="6" opacity="0.8"/>
+    <ellipse cx="1068" cy="188" rx="96" ry="25" fill="none" stroke="#FFC2D5" stroke-width="1.4" opacity="0.65"/>
+  </g>
+  <circle cx="1068" cy="188" r="54" fill="url(#planet)"/>
+  <ellipse cx="1046" cy="170" rx="21" ry="13" fill="#A9C2F5" opacity="0.3" transform="rotate(-24 1046 170)"/>
+  <ellipse cx="1096" cy="212" rx="16" ry="9" fill="#101838" opacity="0.35"/>
+
+  <!-- uçak -->
+  <g transform="translate(874 104) rotate(-18) scale(1.12)">
+    <path d="M0 0 L52 20 L0 40 L10 20 Z" fill="url(#planeFill)" stroke="#E89A2F" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M10 20 L52 20" stroke="#E89A2F" stroke-width="1.1" opacity="0.85"/>
+    <path d="M10 20 L0 40" stroke="#F4C173" stroke-width="1" opacity="0.8"/>
+  </g>
+  <path d="M864 116 C 806 106, 762 114, 710 136" fill="none" stroke="#5B8CFF" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.8"/>
+  <path d="M710 136 C 674 132, 654 126, 634 118" fill="none" stroke="#7FA6FF" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.5"/>
+
+  <!-- pencere noktaları -->
+  <g>
+    <circle cx="40" cy="32" r="4.6" fill="#FF6B9A" opacity="0.9"/>
+    <circle cx="58" cy="32" r="4.6" fill="#FFB547" opacity="0.9"/>
+    <circle cx="76" cy="32" r="4.6" fill="#2FBF7A" opacity="0.9"/>
+  </g>
+
+  <!-- yazı -->
+  <text x="70" y="116" font-family="JetBrains Mono, ui-monospace, Menlo, monospace" font-size="12" font-weight="400" letter-spacing="3.2" fill="#8FA0C8">SENIOR FRONTEND DEVELOPER</text>
+
+  <text x="68" y="186" font-family="Rubik, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-1.4">
+    <tspan fill="#FFFFFF">Selim </tspan><tspan fill="#FF6B9A">Yalınkılıç</tspan>
+  </text>
+
+  <text x="71" y="222" font-family="JetBrains Mono, ui-monospace, Menlo, monospace" font-size="15.5" fill="#7D8AAE">@ <tspan fill="#7FA6FF">Shopier</tspan> · Istanbul</text>
+  <text x="71" y="250" font-family="JetBrains Mono, ui-monospace, Menlo, monospace" font-size="12.5" fill="#5F6B90">selimyalinkilic.me</text>
+</svg>
