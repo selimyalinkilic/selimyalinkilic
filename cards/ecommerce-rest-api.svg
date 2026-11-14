@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="186" viewBox="0 0 620 186" role="img" aria-label="ecommerce-rest-api — The behind-the-scenes part of an online store: products, accounts, sign-in.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+    <style>
+      .label { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 2.4px; fill: #7D8AAE; }
+      .value { font-family: "Rubik", Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -1.2px; fill: #FFFFFF; }
+      .hint  { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 11.5px; fill: #5F6B90; }
+      .stamp { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; font-size: 10.5px; letter-spacing: 1.1px; fill: #4C5679; }
+    </style>
+  </defs>
+
+  <rect width="620" height="186" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="619" height="185" rx="15.5" fill="none" stroke="#2A3560"/>
+  <rect x="0" y="0" width="5" height="186" rx="2.5" fill="#FF6B9A" opacity="0.9"/>
+  <text x="31" y="42" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="2" fill="#5F6B90">PROJECT 01</text>
+  <circle cx="586" cy="38" r="3" fill="#FF6B9A" opacity="0.75"/>
+
+  <text x="30" y="84" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="25" font-weight="700" letter-spacing="-0.5" fill="#FFFFFF">ecommerce-rest-api</text>
+
+  <text x="31" y="116" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">The behind-the-scenes part of an online store:</text>
+  <text x="31" y="138" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" fill="#A9B2D6">products, accounts, sign-in.</text>
+
+  <line x1="31" y1="155" x2="589" y2="155" stroke="#1E2749"/>
+  <text x="31" y="175" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" letter-spacing="1.8" fill="#FF6B9A" opacity="0.85">BUILT END TO END</text>
+</svg>
