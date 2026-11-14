@@ -10,7 +10,7 @@
   <rect x="0.5" y="0.5" width="1279" height="107" rx="15.5" fill="none" stroke="#2A3560"/>
   <rect x="11" y="16" width="4" height="76" rx="2" fill="#5B8CFF" opacity="0.9"/>
 
-  <text x="34" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#5F6B90">PROJECT 03</text>
+  <text x="34" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#5F6B90">PROJECT 01</text>
   <text x="34" y="78" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="700" letter-spacing="-0.7" fill="#FFFFFF">raf</text>
 
   <text x="430" y="56" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14.5" fill="#A9B2D6">A self-hosted read-later shelf: Chrome extension,</text>

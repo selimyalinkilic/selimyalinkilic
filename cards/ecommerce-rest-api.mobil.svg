@@ -9,7 +9,7 @@
   <rect width="640" height="210" rx="16" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="639" height="209" rx="15.5" fill="none" stroke="#2A3560"/>
   <rect x="14" y="18" width="5" height="174" rx="2.5" fill="#FF6B9A" opacity="0.9"/>
-  <text x="40" y="54" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#5F6B90">PROJECT 01</text>
+  <text x="40" y="54" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#5F6B90">PROJECT 02</text>
   <text x="40" y="102" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="31" font-weight="700" letter-spacing="-0.6" fill="#FFFFFF">ecommerce-rest-api</text>
   <text x="40" y="140" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="17" fill="#A9B2D6">The behind-the-scenes part of an online store:</text>
   <text x="40" y="166" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="17" fill="#A9B2D6">products, accounts, sign-in.</text>

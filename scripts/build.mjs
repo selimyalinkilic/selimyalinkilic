@@ -309,8 +309,16 @@ function stampOf(date) {
 
 const PROJECTS = [
   {
-    repo: "ecommerce-rest-api",
+    repo: "raf",
     index: "01",
+    title: "raf",
+    desc: ["A self-hosted read-later shelf: Chrome extension,", "video downloads and Playwright tools."],
+    tag: "BUILDING NOW",
+    accent: C.blue,
+  },
+  {
+    repo: "ecommerce-rest-api",
+    index: "02",
     title: "ecommerce-rest-api",
     desc: ["The behind-the-scenes part of an online store:", "products, accounts, sign-in."],
     tag: "BUILT END TO END",
@@ -318,19 +326,11 @@ const PROJECTS = [
   },
   {
     repo: "next-countries",
-    index: "02",
+    index: "03",
     title: "next-countries",
     desc: ["A small app to browse countries", "and their details."],
     tag: "WEEKEND PROJECT",
     accent: C.amber,
-  },
-  {
-    repo: "raf",
-    index: "03",
-    title: "raf",
-    desc: ["A self-hosted read-later shelf: Chrome extension,", "video downloads and Playwright tools."],
-    tag: "BUILDING NOW",
-    accent: C.blue,
   },
   {
     repo: null,
