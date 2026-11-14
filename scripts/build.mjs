@@ -342,23 +342,37 @@ const PROJECTS = [
   },
 ];
 
-function renderCard(p) {
+function renderCard(p, variant) {
+  if (variant === "mobil") {
+    return shell({
+      w: 640,
+      h: 210,
+      radius: 16,
+      label: `${p.title} — ${p.desc.join(" ")}`,
+      body: `  <rect x="14" y="18" width="5" height="174" rx="2.5" fill="${p.accent}" opacity="0.9"/>
+  <text x="40" y="54" font-family='${mono}' font-size="16" letter-spacing="2.2" fill="${C.faint}">PROJECT ${p.index}</text>
+  <text x="40" y="102" font-family='${sans}' font-size="31" font-weight="700" letter-spacing="-0.6" fill="${C.white}">${esc(p.title)}</text>
+  <text x="40" y="140" font-family='${mono}' font-size="17" fill="${C.text}">${esc(p.desc[0])}</text>
+  <text x="40" y="166" font-family='${mono}' font-size="17" fill="${C.text}">${esc(p.desc[1])}</text>
+  <text x="40" y="194" font-family='${mono}' font-size="15" letter-spacing="2" fill="${p.accent}" opacity="0.85">${p.tag}</text>`,
+    });
+  }
+
   return shell({
-    w: 620,
-    h: 186,
+    w: 1280,
+    h: 108,
     radius: 16,
     label: `${p.title} — ${p.desc.join(" ")}`,
-    body: `  <rect x="11" y="18" width="4" height="150" rx="2" fill="${p.accent}" opacity="0.9"/>
-  <text x="34" y="42" font-family='${mono}' font-size="10.5" letter-spacing="2" fill="${C.faint}">PROJECT ${p.index}</text>
-  <circle cx="586" cy="38" r="3" fill="${p.accent}" opacity="0.75"/>
+    body: `  <rect x="11" y="16" width="4" height="76" rx="2" fill="${p.accent}" opacity="0.9"/>
 
-  <text x="33" y="86" font-family='${sans}' font-size="25" font-weight="700" letter-spacing="-0.5" fill="${C.white}">${esc(p.title)}</text>
+  <text x="34" y="38" font-family='${mono}' font-size="11" letter-spacing="2.2" fill="${C.faint}">PROJECT ${p.index}</text>
+  <text x="34" y="78" font-family='${sans}' font-size="30" font-weight="700" letter-spacing="-0.7" fill="${C.white}">${esc(p.title)}</text>
 
-  <text x="34" y="118" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[0])}</text>
-  <text x="34" y="140" font-family='${mono}' font-size="14" fill="${C.text}">${esc(p.desc[1])}</text>
+  <text x="430" y="56" font-family='${mono}' font-size="14.5" fill="${C.text}">${esc(p.desc[0])}</text>
+  <text x="430" y="78" font-family='${mono}' font-size="14.5" fill="${C.text}">${esc(p.desc[1])}</text>
 
-  <line x1="34" y1="156" x2="589" y2="156" stroke="${C.hair}"/>
-  <text x="34" y="176" font-family='${mono}' font-size="10.5" letter-spacing="1.8" fill="${p.accent}" opacity="0.85">${p.tag}</text>`,
+  <text x="1246" y="74" font-family='${mono}' font-size="11" letter-spacing="2.2" fill="${p.accent}" opacity="0.85" text-anchor="end">${p.tag}</text>
+  <circle cx="1246" cy="36" r="3" fill="${p.accent}" opacity="0.75"/>`,
   });
 }
 
@@ -391,27 +405,15 @@ function icon(name, color, { x = 16, y = 19, size = 26, radius = 9, font = 10.5 
     <path d="M${x + 4.5} ${y + 7.5} L${cx} ${cy + 1} L${x + size - 4.5} ${y + 7.5}" fill="none" stroke="${color}" stroke-width="${size * 0.05}"/>`;
 }
 
-function renderSocial(item, variant) {
-  if (variant === "mobil") {
-    return shell({
-      w: 640,
-      h: 110,
-      radius: 18,
-      label: item.label,
-      body: `  ${icon(item.icon, item.accent, { x: 26, y: 29, size: 52, radius: 17, font: 21 })}
-  <text x="96" y="68" font-family='${mono}' font-size="22" fill="${C.white}">${esc(item.label)}</text>
-  <text x="608" y="66" font-family='${mono}' font-size="22" fill="${item.accent}" text-anchor="end" opacity="0.75">↗</text>`,
-    });
-  }
-
+function renderSocial(item) {
   return shell({
-    w: 1280,
-    h: 76,
-    radius: 16,
+    w: 260,
+    h: 66,
+    radius: 14,
     label: item.label,
-    body: `  ${icon(item.icon, item.accent, { x: 20, y: 21, size: 34, radius: 11, font: 13 })}
-  <text x="70" y="46" font-family='${mono}' font-size="15" fill="${C.white}">${esc(item.label)}</text>
-  <text x="1252" y="45" font-family='${mono}' font-size="15" fill="${item.accent}" text-anchor="end" opacity="0.75">↗</text>`,
+    body: `  ${icon(item.icon, item.accent, { x: 16, y: 19, size: 26, radius: 9, font: 10.5 })}
+  <text x="54" y="39" font-family='${mono}' font-size="12.5" fill="${C.white}">${esc(item.label)}</text>
+  <text x="242" y="38" font-family='${mono}' font-size="13" fill="${item.accent}" text-anchor="end" opacity="0.75">↗</text>`,
   });
 }
 
@@ -438,12 +440,12 @@ async function main() {
 
   for (const project of PROJECTS) {
     const name = project.repo || "more";
-    await write(`cards/${name}.svg`, renderCard(project));
+    await write(`cards/${name}.svg`, renderCard(project, "genis"));
+    await write(`cards/${name}.mobil.svg`, renderCard(project, "mobil"));
   }
 
   for (const item of SOCIAL) {
-    await write(`social/${item.key}.svg`, renderSocial(item, "genis"));
-    await write(`social/${item.key}.mobil.svg`, renderSocial(item, "mobil"));
+    await write(`social/${item.key}.svg`, renderSocial(item));
   }
 
   for (const section of SECTIONS) {

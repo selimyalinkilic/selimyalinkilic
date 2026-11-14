@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" role="img" aria-label="next-countries — A small app to browse countries and their details.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/>
+      <stop offset="1" stop-color="#151D44"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="210" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="639" height="209" rx="15.5" fill="none" stroke="#2A3560"/>
+  <rect x="14" y="18" width="5" height="174" rx="2.5" fill="#FFB547" opacity="0.9"/>
+  <text x="40" y="54" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#5F6B90">PROJECT 02</text>
+  <text x="40" y="102" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="31" font-weight="700" letter-spacing="-0.6" fill="#FFFFFF">next-countries</text>
+  <text x="40" y="140" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="17" fill="#A9B2D6">A small app to browse countries</text>
+  <text x="40" y="166" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="17" fill="#A9B2D6">and their details.</text>
+  <text x="40" y="194" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="15" letter-spacing="2" fill="#FFB547" opacity="0.85">WEEKEND PROJECT</text>
+</svg>

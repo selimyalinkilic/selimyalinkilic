@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="76" viewBox="0 0 1280 76" role="img" aria-label="in/selimyalinkilic">
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="66" viewBox="0 0 260 66" role="img" aria-label="in/selimyalinkilic">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0F24"/>
@@ -6,10 +6,10 @@
     </linearGradient>
   </defs>
 
-  <rect width="1280" height="76" rx="16" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="1279" height="75" rx="15.5" fill="none" stroke="#2A3560"/>
-  <rect x="20" y="21" width="34" height="34" rx="11" fill="#FF6B9A" opacity="0.12"/>
-    <text x="37" y="42.68" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="13" font-weight="700" fill="#FF6B9A" text-anchor="middle">in</text>
-  <text x="70" y="46" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="15" fill="#FFFFFF">in/selimyalinkilic</text>
-  <text x="1252" y="45" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="15" fill="#FF6B9A" text-anchor="end" opacity="0.75">↗</text>
+  <rect width="260" height="66" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="259" height="65" rx="13.5" fill="none" stroke="#2A3560"/>
+  <rect x="16" y="19" width="26" height="26" rx="9" fill="#FF6B9A" opacity="0.12"/>
+    <text x="29" y="35.78" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="10.5" font-weight="700" fill="#FF6B9A" text-anchor="middle">in</text>
+  <text x="54" y="39" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="12.5" fill="#FFFFFF">in/selimyalinkilic</text>
+  <text x="242" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="13" fill="#FF6B9A" text-anchor="end" opacity="0.75">↗</text>
 </svg>
