@@ -12,7 +12,7 @@
 
 <p><a href="https://github.com/selimyalinkilic/raf"><picture>
   <source media="(max-width: 600px)" srcset="cards/raf.mobil.svg" />
-  <img src="cards/raf.svg" width="100%" alt="raf — a self-hosted read-later shelf with a Chrome extension, video downloads and Playwright tools" />
+  <img src="cards/raf.svg" width="100%" alt="raf — a read-later shelf in Chrome: save any page, download videos and images, send them to Telegram" />
 </picture></a></p>
 
 <p><a href="https://github.com/selimyalinkilic/ecommerce-rest-api"><picture>

@@ -312,7 +312,7 @@ const PROJECTS = [
     repo: "raf",
     index: "01",
     title: "raf",
-    desc: ["A self-hosted read-later shelf: Chrome extension,", "video downloads and Playwright tools."],
+    desc: ["A read-later shelf in Chrome: save any page,", "grab videos & images, send to Telegram."],
     tag: "BUILDING NOW",
     accent: C.blue,
   },
