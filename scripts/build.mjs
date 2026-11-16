@@ -309,16 +309,24 @@ function stampOf(date) {
 
 const PROJECTS = [
   {
-    repo: "raf",
+    repo: "repo-graveyard",
     index: "01",
+    title: "repo-graveyard",
+    desc: ["Walk through your abandoned GitHub repos", "in 3D. Each one gets a tombstone."],
+    tag: "JUST SHIPPED",
+    accent: C.amber,
+  },
+  {
+    repo: "raf",
+    index: "02",
     title: "raf",
     desc: ["A read-later shelf in Chrome: save any page,", "grab videos & images, send to Telegram."],
-    tag: "BUILDING NOW",
+    tag: "SHIPPED",
     accent: C.blue,
   },
   {
     repo: "ecommerce-rest-api",
-    index: "02",
+    index: "03",
     title: "ecommerce-rest-api",
     desc: ["The behind-the-scenes part of an online store:", "products, accounts, sign-in."],
     tag: "BUILT END TO END",
@@ -326,19 +334,19 @@ const PROJECTS = [
   },
   {
     repo: "next-countries",
-    index: "03",
+    index: "04",
     title: "next-countries",
     desc: ["A small app to browse countries", "and their details."],
     tag: "WEEKEND PROJECT",
-    accent: C.amber,
+    accent: C.green,
   },
   {
     repo: null,
-    index: "04",
+    index: "05",
     title: "more on GitHub →",
     desc: ["Smaller experiments, older work", "and things I keep tinkering with."],
     tag: "ALWAYS TINKERING",
-    accent: C.green,
+    accent: C.amber,
   },
 ];
 

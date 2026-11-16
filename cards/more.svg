@@ -8,14 +8,14 @@
 
   <rect width="1280" height="108" rx="16" fill="url(#bg)"/>
   <rect x="0.5" y="0.5" width="1279" height="107" rx="15.5" fill="none" stroke="#2A3560"/>
-  <rect x="11" y="16" width="4" height="76" rx="2" fill="#2FBF7A" opacity="0.9"/>
+  <rect x="11" y="16" width="4" height="76" rx="2" fill="#FFB547" opacity="0.9"/>
 
-  <text x="34" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#5F6B90">PROJECT 04</text>
+  <text x="34" y="38" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#5F6B90">PROJECT 05</text>
   <text x="34" y="78" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="30" font-weight="700" letter-spacing="-0.7" fill="#FFFFFF">more on GitHub →</text>
 
   <text x="430" y="56" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14.5" fill="#A9B2D6">Smaller experiments, older work</text>
   <text x="430" y="78" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14.5" fill="#A9B2D6">and things I keep tinkering with.</text>
 
-  <text x="1246" y="74" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#2FBF7A" opacity="0.85" text-anchor="end">ALWAYS TINKERING</text>
-  <circle cx="1246" cy="36" r="3" fill="#2FBF7A" opacity="0.75"/>
+  <text x="1246" y="74" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="11" letter-spacing="2.2" fill="#FFB547" opacity="0.85" text-anchor="end">ALWAYS TINKERING</text>
+  <circle cx="1246" cy="36" r="3" fill="#FFB547" opacity="0.75"/>
 </svg>
