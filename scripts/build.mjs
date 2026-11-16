@@ -324,30 +324,6 @@ const PROJECTS = [
     tag: "SHIPPED",
     accent: C.blue,
   },
-  {
-    repo: "ecommerce-rest-api",
-    index: "03",
-    title: "ecommerce-rest-api",
-    desc: ["The behind-the-scenes part of an online store:", "products, accounts, sign-in."],
-    tag: "BUILT END TO END",
-    accent: C.pink,
-  },
-  {
-    repo: "next-countries",
-    index: "04",
-    title: "next-countries",
-    desc: ["A small app to browse countries", "and their details."],
-    tag: "WEEKEND PROJECT",
-    accent: C.green,
-  },
-  {
-    repo: null,
-    index: "05",
-    title: "more on GitHub →",
-    desc: ["Smaller experiments, older work", "and things I keep tinkering with."],
-    tag: "ALWAYS TINKERING",
-    accent: C.amber,
-  },
 ];
 
 function renderCard(p, variant) {
