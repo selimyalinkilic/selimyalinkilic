@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="GitHub: 22 public repositories, 41 stars, 59 followers">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="GitHub: 22 public repositories, 41 stars, 60 followers">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0F24"/>
@@ -22,8 +22,8 @@
   </g>
   <g transform="translate(334 130)">
     <text y="72" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="16" letter-spacing="2.2" fill="#7D8AAE">FOLLOWERS</text>
-    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">59</text>
+    <text y="126" font-family='"Rubik", Helvetica Neue, Helvetica, Arial, sans-serif' font-size="54" font-weight="800" letter-spacing="-1.4" fill="#FFFFFF">60</text>
   </g>
   <line x1="34" y1="252" x2="606" y2="252" stroke="#1E2749"/>
-  <text x="34" y="278" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" letter-spacing="1.6" fill="#4C5679">SINCE 2017 · UPDATED 18 NOV 2026</text>
+  <text x="34" y="278" font-family='"JetBrains Mono", ui-monospace, Menlo, monospace' font-size="14" letter-spacing="1.6" fill="#4C5679">SINCE 2017 · UPDATED 19 NOV 2026</text>
 </svg>
